@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Tacos Shop</title>
+    <meta name="author" content="abhay">
+    <meta name="discription" content="This page is about Little Tacos">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/first.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Tacos Shop</h1>
+        <nav class="header__nav">
+        <ul class="header__ul">
+            <li><a href="/">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="images/taco-2.png" alt="The Little Tacos" width="1200" height="675" title="Mouth Watering Tacos are Wating for you..." >
+            <figcaption class="offscreen"><h3>Tacos and Sauses ....</h3></figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <!-- content -->
+        
+        <section class="main__location">
+            <h2>Our Location</h2>
+            <p>
+                <address>
+                    555 Taco Temptation Lane Suste 1 , Kanvas City MO 5555-5555
+                    <p>Mobile No.<a href="123-456-7890"></a>123-456-7890</p>
+                </address>
+            </p>
+            <p><a href="#">Back to Top</a></p>
+        </section>
+<hr>
+
+        <section class="form">
+        <h2 class="form__h2">Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset class="form__field">
+                <p class="form__p">
+                <label class="form__lable" for="name">Name:</label>
+                <input class="form__input" type="text" name="name" id="name" placeholder="enter your name">
+                </p>
+                <p class="form__p">
+                <label class="form__lable" for="name">Email:</label>
+                <input class="form__input" type="email" name="email" id="email" placeholder="enter your email">
+                </p>
+                <p class="form__p">
+                    <label class="form__lable" for="mobileno">Mobile No.</label>
+                    <input class="form__input" type="tel" id="mobileno" name="mobileno" placeholder="1234567890">
+                </p>
+                <p class="form__p">
+                    <label class="form__lable" for="message">Your Message:</label>
+                    <br>
+                    <textarea class="form__textarea" class="form__lable" name="message" id="message" cols="30" rows="10" 
+                    placeholder="Type Your Message here..."></textarea>
+                </p>
+            </fieldset>
+            <button class="btn" type="submit">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+        </form>
+    </section>     
+    </main>
+
+    <footer class="footer">
+        <p><span class="nowrap">Copyright &copy;<time id="years"></time></span>
+             <span class="nowrap">Little Tacos Shop</span>
+            </p>
+    </footer>
+</body>
+</html>

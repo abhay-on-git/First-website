@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Tacos Shop</title>
+    <meta name="author" content="abhay">
+    <meta name="discription" content="This page is about Little Tacos">
+    <link rel="stylesheet" href="css/style.css">
+     <script src="js/first.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Tacos Shop</h1>
+        <nav class="header__nav">
+        <ul class="header__ul">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section class="video">
+        <h2 class="video__h2">Welcome!</h2>
+        <video id="myVideo" autoplay loop muted="tacovideo.mp4" width="1200" height="675">
+            <source src="tacovideo.mp4">
+            <source src="tacovideo.WebM">
+             Your Browser Does Not Supporting This Video !
+        </video>
+    </section>
+
+    <main class="main">
+       <article class="menu" id="menu">
+       <h2 class="menu__h1">Menu</h2>
+       <div class="menu__table">
+       <table>
+        <caption>Our Tacos</caption>
+        <thead class="menu__header">
+            <tr>
+                <th>Tacos</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <th scope="row" rowspan="3">Crunchy</th>
+                <td>1</td>
+                <td>$1.50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$3.25</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Soft</th>
+                 <td>1</td>
+                 <td>$2.00</td>
+             </tr>
+             <tr>
+                 <td>2</td>
+                 <td>$3.50</td>
+             </tr>
+             <tr>
+                 <td>3</td>
+                 <td>$4.50</td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Chips &amp; Salsa $2</td>
+            </tr>
+        </tfoot>
+       </table>
+    </div>
+       <br>
+    </article>
+    <a href="#" class="backtotop">Back to Top</a>
+    </main>
+    <footer class="footer">
+        <p><span class="nowrap">Copyright &copy;<time id="years"></time></span>
+             <span class="nowrap">Little Tacos Shop</span>
+            </p>
+    </footer>
+</body>
+</html>
